@@ -1,6 +1,9 @@
 //import Message from "./message";
 //import ListGroup from "./components/ListGroup";
-import Alert from "./components/alert";
+//import Alert from "./components/alert";
+
+import Filter from "./components/Filter";
+
 
 function App() {
   /*let items = ["New York", "Paris", "Totyo", "London", "parts"];
@@ -11,11 +14,14 @@ function App() {
 */
   return (
     <div>
+
       {/* <ListGroup  items={items} heading="Cities"  onSelectItem={handleSelectItem}/>*/}{" "}
-      <Alert>
+     {/*} <Alert>
         Hello <spn>World</spn>
       </Alert>
+  {*/}
 
+  <Filter></Filter>
     </div>
   );
 }
